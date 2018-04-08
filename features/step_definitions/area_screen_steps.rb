@@ -41,3 +41,11 @@ Then(/^I get "([^"]*)" in To field$/) do |value|
   puts("Expected value is #{value}")
   puts("Actual value is #{actual_value}")
 end
+
+And(/^I click on From$/) do
+  pending
+end
+
+And(/^I press "([^"]*)" on soft keyboard$/) do |arg|
+  pending
+end
