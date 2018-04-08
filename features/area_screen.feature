@@ -3,6 +3,7 @@ Feature: User is able to canverte area units
 
   Background:
     Given I click i Got it button
+    Then I land on Area screen
 
 # Scenario: User is able to desmiss help
  #  Given I land on help popup
@@ -21,12 +22,11 @@ Feature: User is able to canverte area units
     When I enter "<target>" to From field
     Then I get "<result>" in To field
     Examples:
-      | target | result  |
-      | 1      | 1000000 |
-      | 2      | 2000000 |
-      | 3      | 3000000 |
+      |target|result|
+      |1|1000000|
+      |2|2000000|
+      |3|3000000|
 
-  @wip
   Scenario: User is able to use soft keyboard to enter values
     Given I click on Clear button
     And I click on From
