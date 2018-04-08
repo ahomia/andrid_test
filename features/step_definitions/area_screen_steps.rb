@@ -43,9 +43,10 @@ Then(/^I get "([^"]*)" in To field$/) do |value|
 end
 
 And(/^I click on From$/) do
-  pending
+  find_element(id: "header_value_from").click
 end
 
-And(/^I press "([^"]*)" on soft keyboard$/) do |arg|
-  pending
+And(/^I press "([^"]*)" on soft keyboard$/) do |value|
+  digital = Integer(value)
+  press_keycode 7 + digital
 end
