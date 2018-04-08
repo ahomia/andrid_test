@@ -32,3 +32,8 @@ Feature: User is able to canverte area units
     And I click on From
     And I press "3" on soft keyboard
   Then I get "3000000" in To field
+
+    Scenario:
+      When I select "Hectare" from left column
+      Then I see "Hectare" in From header
+      And I get "10000" in To field
