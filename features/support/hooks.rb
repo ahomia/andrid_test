@@ -1,6 +1,6 @@
 Before do
   $driver.start_driver
- end
+end
 
 After do
   $driver.driver_quit

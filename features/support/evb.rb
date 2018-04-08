@@ -4,7 +4,7 @@ def caps
   {caps: {
       deviceName: :"Name",
       platformName: "Android",
-      app: (File.join(File.dirname(__FILE__),"ultimate_converter.apk")),
+      app: (File.join(File.dirname(__FILE__), "ultimate_converter.apk")),
       appPackage: "com.physphil.android.unitconverterultimate",
       appAcrivity: "com.physphil.android.unitconverterultimate.MainActivity",
       newCommanrTimeout: "3600"
